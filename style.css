@@ -1,0 +1,484 @@
+@font-face {
+    font-family: Vela Sans; /* Гарнитура шрифта */
+    src: url(../fonts/VelaSans-Bold.ttf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/VelaSans-ExtraBold.ttf);
+    src: url(../fonts/VelaSans-ExtraLight.ttf);
+    src: url(../fonts/VelaSans-Light.ttf);
+    src: url(../fonts/VelaSans-Medium.ttf);
+    src: url(../fonts/VelaSans-Regular.ttf);
+    src: url(../fonts/VelaSans-SemiBold.ttf);
+   }
+
+* {
+    font-family: Vela Sans, "sans-serif";
+    box-sizing: border-box;
+}
+
+body {
+   position: relative;
+    
+}
+
+button {
+    outline: none;
+    width: 200px;
+    height: 50px;
+}
+
+header {
+    background-color: #4760F0;
+    
+}
+
+.logo_img {
+    margin-left: 260px;
+    margin-top: 30px;
+    position: fixed;
+    z-index: 99;
+}
+
+.first_container {
+    background-color: #4760F0;
+    
+}
+
+.first_screen__container {
+    margin: auto;
+    width: 1440px;
+}
+
+.first_screen_main__container{
+    background-color: #4760F0;
+    width: 100%;
+}
+
+.first_container__paragraph {
+    font-size: 48px;
+    line-height: 130%;
+    position: absolute;
+    top: 304px;
+    left: 689px;
+    text-align: center;
+    font-weight: bold;
+}
+
+img.first_container__circle {
+    animation: 9s linear 0s normal none infinite running first_container__circle;
+    -webkit-animation: 9s linear 0s normal none infinite running first_container__circle;
+    ;
+  }
+  @keyframes first_container__circle {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes first_container__circle {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+.first_container__circle {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 388px;
+    margin-bottom: 80px;
+}
+
+.colored {
+    color: #fff;
+}
+
+.first_container__button {
+    position: absolute;
+    top: 570px;
+    left: 862px;
+    border-radius: 4px;
+    background-color: transparent;
+    outline: none;
+    font-weight: bold;
+    padding-top: 0px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    line-height: 130%;
+}
+
+.second_main__container {
+    background-color: #25D5A6;
+    
+}
+
+.second_container {
+    background-color: #25D5A6;
+    margin: auto;
+    width: 1440px;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.second_container__title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 130%;
+    padding-top: 40px;
+    padding-left: 346px;
+    color: #fff;
+}
+
+.first_speech__buble {
+    width: 600px;
+    height: 196px;
+    background-color: #4760F0;
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-left: 260px;
+}
+
+.first_speech__text {
+    color: #fff;
+    font-weight: 400;
+    font-size: 36px;
+    padding-left: 40px;
+    padding-top: 28px;
+    line-height: 130%;
+}
+
+.second_speech__buble {
+    width: 600px;
+    height: 196px;
+    background-color: #4760F0;
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-left: 577px;
+    
+}
+
+.second_speech__text {
+    color: #fff;
+    font-weight: 400;
+    font-size: 36px;
+    padding-left: 40px;
+    padding-top: 28px;
+    line-height: 130%;
+}
+
+.second_screen_smile__1 {
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+.second_screen_smile__2 {
+    position: absolute;
+    top: 400px;
+    left: 240px;
+}
+
+.second_screen_smile__3 {
+    position: absolute;
+    top: 150px;
+    left: 950px;
+}
+
+.second_screen_smile__4 {
+    position: absolute;
+    top: 380px;
+    left: 1180px;
+}
+
+.third_main__container {
+    background-color: #fff;
+    
+}
+
+.third_container {
+    background-color: #fff;
+    margin: auto;
+    width: 1440px;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.third_container__title {
+    padding-top: 40px;
+    padding-left: 674px;
+    padding-bottom: 40px;
+}
+
+.third_bubble {
+    padding-left: 380px;
+}
+
+.third_screen_smile__1 {
+    position: absolute;
+    top: 350px;
+    left: 38px;
+}
+
+.third_screen_smile__2 {
+    position: absolute;
+    top: 800px;
+    left: 110px;
+}
+
+.third_screen_smile__3 {
+    position: absolute;
+    top: 1260px;
+    left: 110px;
+}
+
+.third_screen_smile__4 {
+    position: absolute;
+    top: 150px;
+    left: 1130px;
+}
+
+.third_screen_smile__5 {
+    position: absolute;
+    top: 550px;
+    left: 1100px;
+}
+
+.third_screen_smile__6 {
+    position: absolute;
+    top: 1050px;
+    left: 1135px;
+}
+
+.four_main__container {
+    background-color: #FF3B63;
+}
+
+.four_container {
+    background-color: #FF3B63;
+    margin: auto;
+    min-width: 1440px;
+    position: relative;
+}
+
+.four_bg__image {
+    width: 100%;
+   
+}
+
+.four_container__text {
+    position: absolute;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 130%;
+    top: 700px;
+    left: 600px;
+    color: #fff;
+}
+
+.four_container__button {
+    position: absolute;
+    top: 814px;
+    left: 855px;
+    border-radius: 4px;
+    background-color: #25D5A6;
+    outline: none;
+    font-weight: bold;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    line-height: 130%;
+}
+
+.five_main__container {
+    background-color: #fff;
+}
+
+.five_container {
+    background-color: #fff;
+    margin: auto;
+    width: 1440px;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.five_memes {
+    padding-top: 80px;
+    padding-left: 260px;
+}
+
+.five_container__text {
+    color: #4760F0;
+    font-size: 36px;
+    font-weight: medium;
+    line-height: 130%;
+    position: absolute;
+    top: 300px;
+    left: 681px;
+}
+
+.five_container__button {
+    position: absolute;
+    top: 468px;
+    left: 681px;
+    border-radius: 4px;
+    background-color: #FF3B63;
+    outline: none;
+    font-weight: bold;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    line-height: 130%;
+}
+
+.six_main__container {
+    background-color: #4760F0;/
+}
+
+.six_container {
+    background-color: #4760F0;
+    margin: auto;
+    width: 1440px;
+    padding-bottom: 151px;
+    position: relative;
+}
+
+.who_we {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 130%;
+    color: #fff;
+    margin-left: 620px;
+    padding-top: 40px;
+}
+
+.six_container__text {
+    font-size: 36px;
+    font-weight: medium;
+    line-height: 130%;
+    color: #fff;
+    margin-left: 348px;
+    padding-top: 40px;
+}
+
+.who_we__img {
+    padding-top: 11px;
+    padding-left: 412px;
+}
+
+.name_1 {
+   position: absolute;
+   top: 636px;
+   left: 502px;
+   font-size: 36px;
+   font-weight: medium;
+   line-height: 130%;
+   color: #fff;
+}
+
+.name_2 {
+    position: absolute;
+    top: 636px;
+    left: 827px;
+    font-size: 36px;
+    font-weight: medium;
+    line-height: 130%;
+    color: #fff;
+}
+
+.six_container__button {
+    position: absolute;
+    top: 712px;
+    left: 611px;
+    border-radius: 4px;
+    background-color: #FF3B63;
+    outline: none;
+    font-weight: bold;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    line-height: 130%;
+}
+
+.footer_main_container {
+    background-color: #25D5A6;
+}
+
+.footer_container {
+    background-color: #25D5A6;
+    margin: auto;
+    width: 1440px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+footer h3 {
+    font-size: 20px;
+    font-weight: medium;
+    line-height: 130%;
+    color: #fff;
+}
+
+footer p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.contackts {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 262px;
+}
+
+.phone_1 {
+    padding-left: 262px;
+    padding-bottom: 10px;
+}
+
+.phone_2 {
+    padding-left: 262px;
+    padding-bottom: 10px;
+}
+
+.mail {
+    padding-left: 262px;
+}
+
+.our_adress {
+    position: absolute;
+    top: 40px;
+    left: 560px;
+}
+
+.adress {
+    position: absolute;
+    top: 80px;
+    left: 560px;
+}
+
+.social_nets {
+    position: absolute;
+    top: 40px;
+    left: 901px;
+}
+
+.vk {
+    position: absolute;
+    top: 80px;
+    left: 901px;
+}
+
+.insta {
+    position: absolute;
+    top: 80px;
+    left: 992px;
+}
+
+.facebook {
+    position: absolute;
+    top: 80px;
+    left: 1063px;
+}
