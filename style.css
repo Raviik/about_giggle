@@ -14,9 +14,13 @@
     box-sizing: border-box;
 }
 
+
+::-webkit-scrollbar {
+    display: none;
+}
 body {
    position: relative;
-    
+
 }
 
 button {
@@ -25,102 +29,102 @@ button {
     height: 50px;
 }
 
-header {
-    background-color: #4760F0;
-    
-}
-
-.logo_img {
-    margin-left: 260px;
-    margin-top: 30px;
+.header {
+    width: 100%;
+    height: 74px;
+    padding: 20px;
     position: fixed;
+    justify-content: left;
     z-index: 99;
 }
 
-.first_container {
-    background-color: #4760F0;
-    
+.header .logo_img {
+  width: 160px;
+  height: 33.78px;
 }
 
-.first_screen__container {
-    margin: auto;
-    width: 1440px;
-}
-
-.first_screen_main__container{
+.first-container {
     background-color: #4760F0;
     width: 100%;
+    height: 100vh;
+    max-height: 866px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.first_container__paragraph {
+.first-container .circle {
+    width: 40vw;
+    height: 40vw;
+    position: relative;
+    border: 0.5vw dashed #FF3B63;
+    border-radius: 100%;
+}
+.first_container__text {
+  position: absolute;
+  align-items: center;
+}
+.first-container_details {
+  position: absolute;
+  background-image: url(img/first_screen_circle.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100vw;
+}
+.first_container__text p{
     font-size: 48px;
     line-height: 130%;
-    position: absolute;
-    top: 304px;
-    left: 689px;
+    margin-top: 30px;
     text-align: center;
     font-weight: bold;
 }
-
-img.first_container__circle {
-    animation: 9s linear 0s normal none infinite running first_container__circle;
-    -webkit-animation: 9s linear 0s normal none infinite running first_container__circle;
-    ;
-  }
-  @keyframes first_container__circle {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  @-webkit-keyframes first_container__circle {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-
-.first_container__circle {
-    position: relative;
-    margin-top: 20px;
-    margin-left: 388px;
-    margin-bottom: 80px;
-}
-
-.colored {
-    color: #fff;
-}
-
 .first_container__button {
-    position: absolute;
-    top: 570px;
-    left: 862px;
     border-radius: 4px;
     background-color: transparent;
     outline: none;
+    margin-left: 32%;
     font-weight: bold;
-    padding-top: 0px;
+    margin-top: 32px;
     font-size: 20px;
     border: 1px solid #fff;
     color: #fff;
     line-height: 130%;
 }
+.first_container__button:hover {
+  background-color: #fff;
+  color: #4760F0;
+  transition: 0.8s;
+}
+
+  .first-container .circle {
+    animation: 20s infinite linear rotate-c;
+  }
+  @keyframes rotate-c {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.first-container .colored {
+    color: #fff;
+}
+
 
 .second_main__container {
     background-color: #25D5A6;
-    
+
 }
 
 .second_container {
     background-color: #25D5A6;
     margin: auto;
     width: 1440px;
-    position: relative;
     padding-bottom: 80px;
+    position: relative;
 }
 
 .second_container__title {
@@ -157,7 +161,7 @@ img.first_container__circle {
     border-radius: 50px;
     margin-top: 40px;
     margin-left: 577px;
-    
+
 }
 
 .second_speech__text {
@@ -195,7 +199,7 @@ img.first_container__circle {
 
 .third_main__container {
     background-color: #fff;
-    
+
 }
 
 .third_container {
@@ -257,15 +261,17 @@ img.first_container__circle {
 }
 
 .four_container {
-    background-color: #FF3B63;
+    background-color: #fff;
     margin: auto;
     min-width: 1440px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .four_bg__image {
     width: 100%;
-   
 }
 
 .four_container__text {
@@ -273,20 +279,18 @@ img.first_container__circle {
     font-weight: bold;
     font-size: 72px;
     line-height: 130%;
-    top: 700px;
-    left: 600px;
+    margin-top: 32%;
     color: #fff;
 }
 
 .four_container__button {
     position: absolute;
-    top: 814px;
-    left: 855px;
     border-radius: 4px;
     background-color: #25D5A6;
     outline: none;
     font-weight: bold;
     border: none;
+    margin-top: 45%;
     font-size: 20px;
     color: #fff;
     line-height: 130%;
